@@ -1,0 +1,8 @@
+version : "3.0"
+
+services:
+  web:
+    build: .
+    image: ${DOCKER_USR}/ossp_pokemon
+    ports:
+      - 80:80
